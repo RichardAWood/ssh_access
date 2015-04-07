@@ -9,6 +9,6 @@ EOF
 chmod 0440 /etc/sudoers.d/bac-ALL
 mkdir ~bac/.ssh
 chmod 700 ~bac/.ssh
-curl https://raw.githubusercontent.com/bcarlsenca/ssh_access/master/bcarlsen_rsa.pub >~bac/.ssh/authorized_keys
+curl https://raw.githubusercontent.com/bcarlsenca/ssh_access/master/bcarlsenca_rsa.pub >~bac/.ssh/authorized_keys
 chmod 400 ~bac/.ssh/authorized_keys
 chown -R bac ~bac/.ssh
